@@ -1,0 +1,66 @@
+.services
+    &-block
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+        &__list
+            list-style-type: square
+            padding: 0 20px
+            li
+                margin-top: 7px
+                font-size: 16px
+        &__image
+            width: 60px
+            height: 60px
+            margin-right: 20px
+        &__item
+            display: flex
+            flex-basis: 30%
+            align-items: center
+            margin-left: 20px
+            margin-bottom: 40px
+        &__title
+            color: $primary
+            font-size: 18px
+            line-height: 1.2
+            margin-bottom: 0
+            letter-spacing: 1px
+        &__number
+            display: none
+            border: 2px solid $primary
+            width: 45px
+            height: 45px
+            border-radius: 50%
+            text-align: center
+            line-height: 40px
+            +bold
+            color: $primary
+        &__text
+            font-size: 18px
+            line-height: 1.2
+            margin-top: 8px
+        
+@media (max-width: 990px)
+    .services
+        &-block
+            display: flex
+            &__item
+                flex-basis: 45%
+@media (max-width: 768px)
+    .services
+        &-block
+            
+            &__item
+                flex-basis: 100%
+                
+
+@media (max-width: 468px)
+    .services
+        &-block
+            justify-content: center
+            &__item
+                flex-basis: 100%
+               
+               
+               

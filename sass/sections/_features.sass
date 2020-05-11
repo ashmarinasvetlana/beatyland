@@ -1,0 +1,25 @@
+.features
+    &-block
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        &__item
+            flex-basis: 25%
+            text-align: center
+        &__text
+            font-size: 20px
+           
+        &__img
+            width: 60px
+            height: 60px
+@media (max-width: 991px)
+    .features
+        &-block
+            &__item 
+                flex-basis: 50%
+@media (max-width: 768px)
+    .features
+        &-block
+            &__item 
+                flex-basis: 100%
+                margin-bottom: 50px

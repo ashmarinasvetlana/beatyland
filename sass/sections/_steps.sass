@@ -1,0 +1,34 @@
+.step
+    margin-left: 30px
+    text-align: left
+    &__title
+        font-size: 18px
+    &__text
+        max-width: 220px
+        margin-bottom: 30px
+        line-height: 1.45
+    &__number
+            display: inline-block
+            width: 45px
+            height: 45px
+            line-height: 40px
+            +bold
+            color: $primary
+    
+    &s
+        background-color: #f1f1f1
+        &-block
+            display: flex
+            justify-content: space-between
+            flex-wrap: wrap
+@media (max-width: 991px)
+        .step
+            width: 33%
+            &:before
+                display: none
+@media (max-width: 768px)
+    .step
+        width: 100%
+        &__text
+            max-width: 300px
+            text-align: left
