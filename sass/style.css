@@ -837,7 +837,7 @@ img {
   }
 }
 
-@media (max-width: 468px) {
+@media (max-width: 486px) {
   .services-block {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -846,6 +846,10 @@ img {
   .services-block__item {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+  }
+  .services-block__image {
+    width: 45px;
+    height: 45px;
   }
 }
 
