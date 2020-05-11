@@ -727,7 +727,7 @@ img {
             justify-content: center;
   }
   .hero-wrap__item {
-    margin-top: 150px;
+    margin-top: 120px;
   }
   .hero__form {
     margin-left: 0;
@@ -744,6 +744,7 @@ img {
   }
   .hero__title {
     font-size: 35px;
+    font-size: 16px;
   }
   .hero-features {
     display: none;
